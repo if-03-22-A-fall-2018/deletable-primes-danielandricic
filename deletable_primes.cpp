@@ -9,9 +9,6 @@
  * Author:			D. Andricic
  * Due Date:		25.Februar 2019
  * ----------------------------------------------------------
- * Description:
- * Implementation of deletable_primes.h.
- * ----------------------------------------------------------
  */
 
    unsigned long remove_digit(int index, unsigned long n)
@@ -40,10 +37,9 @@
    }
 
    // Counter für das Iterieren.
-   int get_length(unsigned long n)
-   {
+ int get_length(unsigned long n)
+ {
      int count=0;
-
      while (n > 1)
      {
        n /= 10;
@@ -52,6 +48,7 @@
      return count;
  }
 
+ // Methode, die alle Möglichkeiten für die Ermittlung von Primzahlen ausprobiert.
  int get_ways(unsigned long p)
  {
    if(p < 10 && is_prime(p))

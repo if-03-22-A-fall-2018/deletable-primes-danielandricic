@@ -3,11 +3,8 @@
  * ---------------------------------------------------------
  * Exercise Number: 0
  * Title:			deletable_primes.h
- * Author:			P. Bauer
- * Due Date:		December 1, 2010
- * ----------------------------------------------------------
- * Description:
- * CatCoder Deletable Primes.
+ * Author:			D. Andricic
+ * Due Date:		25. Februar 2019
  * ----------------------------------------------------------
  */
 #ifndef ___DELETABLE_PRIMES
